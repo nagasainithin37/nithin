@@ -9,7 +9,7 @@ app.get('/get',(req,res)=>{
 })
 
 app.post('/post',(req,res)=>{
-
+    console.log(req.body)
     res.send({message:req.body,data:'recieved'})
 })
 

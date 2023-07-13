@@ -1,2 +1,6 @@
+POST http://localhost:3014/post
+Content-Type: application/json
 
-GET http://localohost:3014/get
+{
+    "gs":"gfsf"
+}
